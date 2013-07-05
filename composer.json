@@ -1,0 +1,23 @@
+{
+    "name": "phpalchemy/alchemist",
+    "description": "PHPAlchemy Framework Wizard",
+    "keywords": ["package", "dependency", "autoload", "phpalchemy"],
+    "homepage": "http://phpalchemy.org/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik Amaru Ortiz",
+            "email": "aortiz.erik@gmail.com",
+            "homepage": "http://phpalchemy.org"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Alchemist": "src/" }
+    },
+    "bin": ["bin/alchemist"],
+    "require": {
+        "symfony/console" : "~2.3@dev"
+    },
+    "minimum-stability": "dev"
+}
